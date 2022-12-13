@@ -23,7 +23,7 @@ with open("Filename.html", "r") as Alias:
 
 ### Get It Work 🐛
 
-``````bash
+```bash
 git clone https://github.com/iNightjar/Scalamp.git
 cd Scalamp
 git checkout master
@@ -45,7 +45,7 @@ Use `.\venv\Scripts\activate` if on windows
 
 ### Install requirements
 
-``````bash
+```bash
 (venv) python -m pip install pip --upgrade
 (venv) python -m pip install -r requirements.txt
 ```
