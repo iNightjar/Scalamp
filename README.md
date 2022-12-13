@@ -1,2 +1,12 @@
-# Scalamp
-Web scraping practicises with python beautifullsoap4  library for pulling data out of HTML and XML files, commonly saves programmers hours or days of work.
+# Scalamp :snake: Python Web Scraping
+## Getting Started
+
+```python
+from bs4 import BeautifulSoup as bs
+import requests
+
+
+with open("Filename.html", "r") as Alias:
+    doc = bs(Alias, "html.parser")
+```
+
