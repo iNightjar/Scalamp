@@ -1,6 +1,6 @@
 # Scalamp :snake: Python Web Scraping
 
-## Getting Started
+## Getting Started :star
 
 ```python
 from bs4 import BeautifulSoup as bs
@@ -14,12 +14,19 @@ doc = bs(results.text, "html.parser")
 
 
 
-# local HTML File Inside Your Directory
+# Local HTML File Inside Your Directory
 with open("Filename.html", "r") as Alias:
     doc = bs(Alias, "html.parser")
-```
 
-<br>
+
+# Writes Down Changes into New Html file
+for tag in tags:
+    tag['placeholder'] = "I changed you!"  # Change The value in placeholder attr
+    # print(type(tag)) > Element
+
+with open("v2CourseRegistration.html", "w") as file:
+    file.write(str(doc))
+```
 
 ### Get It Work 🐛
 
