@@ -60,6 +60,6 @@ Use `.\venv\Scripts\activate` if on windows
 ### Open VSCode & Start Coding
 
 ```bash
-cd /path/ProjectX
+cd /path/Sclamp
 code .
 ```
