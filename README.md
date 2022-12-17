@@ -1,6 +1,7 @@
 # Scalamp :snake: Python Web Scraping
 
-# Scraping In Stock 3080 Graphics Card For Name, :dollar:Price and :link:Product Link
+## In Stock 3080 Graphics Card For Name, :dollar:Price and :link:Product Link
+
 <https://user-images.githubusercontent.com/60796459/208224658-766e537e-7033-4d0a-8ad2-3b673a1ae950.mp4>
 
 ## Code Snippets :star
