@@ -1,6 +1,9 @@
 # Scalamp :snake: Python Web Scraping
 
-## Getting Started :star
+# Scraping In Stock 3080 Graphics Card For Name, :dollar:Price and :link:Product Link
+<https://user-images.githubusercontent.com/60796459/208224658-766e537e-7033-4d0a-8ad2-3b673a1ae950.mp4>
+
+## Code Snippets :star
 
 ```python
 from bs4 import BeautifulSoup as bs
@@ -26,9 +29,22 @@ for tag in tags:
 
 with open("v2CourseRegistration.html", "w") as file:
     file.write(str(doc))
+
+
+# dictionary that contains each item:{price, link}
+sorted_items = sorted(items_found.items(), key=lambda x: x[1]['price'])
+
+# looping through items to print them
+for item in sorted_items:
+    print("-------------------------")
+    print(item[0])
+    print(f"${item[1]['price']}")
+    print(item[1]['link'])
+    print("-------------------------")
+
 ```
 
-### Get It Work 🐛
+### Clone The Repository 🐛
 
 ```bash
 git clone https://github.com/iNightjar/Scalamp.git
