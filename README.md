@@ -1,10 +1,10 @@
 # Scalamp :snake: Python Web Scraping
 
-## In Stock 3080 Graphics Card For Name, :dollar:Price and :link:Product Link
+## In Stock 3080 Graphics Card <img class="emoji" alt="snake" src="https://user-images.githubusercontent.com/60796459/208253879-71ec67fe-d25d-4d21-bc2f-94cb46948fc2.png" width="20" height="20"> :dollar:Price and :link:Product Link
 
-<https://user-images.githubusercontent.com/60796459/208224658-766e537e-7033-4d0a-8ad2-3b673a1ae950.mp4>
+![Scraping Graphics Cards](https://user-images.githubusercontent.com/60796459/208224658-766e537e-7033-4d0a-8ad2-3b673a1ae950.mp4)
 
-## Code Snippets :star:
+## Code Snippets :star
 
 ```python
 from bs4 import BeautifulSoup as bs
