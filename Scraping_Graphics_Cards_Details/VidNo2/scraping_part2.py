@@ -10,7 +10,7 @@ with open("../CourseRegistration.html", "r") as index:
 # limit finds to 10 objects
 # tags = doc.find_all(text=re.compile("\$.*"), limit=10)
 
-# find input tags with type = text
+#c
 tags = doc.find_all("input", type="text")
 # value = tag["selected"]= "false"
 # tag['color'] = "black"
