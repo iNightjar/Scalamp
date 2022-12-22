@@ -4,7 +4,7 @@
 
 <https://user-images.githubusercontent.com/60796459/208224658-766e537e-7033-4d0a-8ad2-3b673a1ae950.mp4>
 
-## Code Snippets :star
+## Code Snippets :star:
 
 ```python
 from bs4 import BeautifulSoup as bs
